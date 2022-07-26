@@ -1,4 +1,4 @@
-## Memory Game 
+## Ricky and Morty Memory Game 
 
 ### Como rodar
 
