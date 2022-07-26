@@ -4,7 +4,7 @@
 
 Rodar o arquivo index.html no browser
 
-### Acesse o projeto
+### Acesse o projeto final
 
 <a href="https://eduardotks.github.io/memory_game_js/" target="_blank">Click!!!</a>
 
