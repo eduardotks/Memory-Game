@@ -13,10 +13,15 @@
 </head>
 <body>
 
+
   <main>
+    
     <header>
       <span class="player"></span>
       <span>Tempo: <span class="timer">00</span></span>
+      <audio id="player" autoplay controls volume>
+        <source src="../audio/ram.mp3" type="audio/mp3">
+    </audio>
     </header>
   
     <div class="grid"></div>
@@ -24,3 +29,14 @@
 
 </body>
 </html>
+
+<script>
+    document.addEventListener('click', musicPlay);
+    function musicPlay() {
+        let player = document.getElementById('player');
+        
+        document.getElementById('player').play();
+        player.volume = 0.5;
+        document.removeEventListener('click', musicPlay);
+    }
+</script>

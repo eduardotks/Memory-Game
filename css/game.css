@@ -25,7 +25,7 @@ main {
   
   .grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 1fr = 100% da tela , dividido em 5 vezes*/
+    grid-template-columns: repeat(5, 1fr); /* 1fr = 100% da tela , dividido em 5 vezes*/
     gap: 15px;
     width: 100%;
     max-width: 800px;

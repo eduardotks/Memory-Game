@@ -29,8 +29,9 @@ let firstCard = '';
 let secondCard = '';
 
 const checkEndGame = () => {
+    //todas as cartas estão desabilitadas
   const disabledCards = document.querySelectorAll('.disabled-card');
-
+  //verifica se todas as cartas estão desabilitadas
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
     alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML}`);
@@ -124,7 +125,7 @@ const loadGame = () => {
 }
 
 const startTimer = () => {
-
+    //a cada 1 segundo chama a função somando 1 ao contador
   this.loop = setInterval(() => {
     const currentTime = +timer.innerHTML;
     timer.innerHTML = currentTime + 1;
@@ -133,7 +134,8 @@ const startTimer = () => {
 }
 
 window.onload = () => {
-  spanPlayer.innerHTML = localStorage.getItem('player');
+    //carrega nome do local storage
+  spanPlayer.innerHTML = localStorage.getItem('player'); 
   startTimer();
   loadGame();
 }
