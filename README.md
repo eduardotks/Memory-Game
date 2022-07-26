@@ -11,6 +11,7 @@ Rodar o arquivo index.html no browser
 ### Imagem
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/eduardotks/javascript_memory_game/blob/master/images/capa1.png">
+  <img src="https://github.com/eduardotks/javascript_memory_game/blob/master/images/capa2.png">
 </p>
 
